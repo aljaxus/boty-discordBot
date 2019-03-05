@@ -1,0 +1,14 @@
+{
+  "name": "leboty-discord_bot",
+  "version": "0.0.1",
+  "description": "A discord bot by Aljaxus for Vuetify's discord server",
+  "main": "nodemon server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "aljaxus",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
