@@ -1,8 +1,7 @@
 const Discord = require('discord.js')
-const config = require('config.nogit.js')`
+const config = require('./config.nogit.js')
 
 const bot = new Discord.Client();
-
 
 
 
@@ -40,7 +39,7 @@ bot.on('message', message => {
         return message.react("🇾")
       })
       .then(() => {
-        return message.react("❤")
+        return message.react("♥")
       })
       .then(() => {
         return message.react("🇷")
