@@ -8,7 +8,7 @@ services:
     build:
       context: ./
       dockerfile: dockerfile
-    command: ["npm", "run", "dev"]
+    command: ["yarn", "run", "dev"]
     volumes:
       - ./:/var/server
       - /var/server/node_modules
