@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+
+  boty_discordbot:
+    container_name: boty_discordbot
+    restart: unless-stopped
+    image: boty_discordbot:latest
+    build:
+      context: ./
+      dockerfile: dockerfile
+    command: ["npm", "run", "start"]
